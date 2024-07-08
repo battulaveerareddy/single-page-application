@@ -6,4 +6,4 @@ RUN apt-get update &&\
 
 EXPOSE 80
 
-CMD ["apachetl", "-D","FOREGROUND"]
+CMD ["apache2ctl", "-D","FOREGROUND"]
